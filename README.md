@@ -33,7 +33,7 @@ import numpy as np
 from sklearn.cluster import KMeans
 from sklearn.metrics.pairwise import euclidean_distances
 import matplotlib.pyplot as plt
-data = pd.read_csv("/content/Mall_Customers.csv")
+data = pd.read_csv("Mall_Customers.csv")
 data
 X = data[['Annual Income (k$)' , 'Spending Score (1-100)']]
 X
@@ -78,11 +78,11 @@ plt.show()
 ```
 ## Output:
 
-![325288384-de1e047c-8fc0-4e7e-88e3-250bd28ba8c6](https://github.com/user-attachments/assets/abcc1360-8c32-473c-a00f-6177839ada3a)
+![download](https://github.com/user-attachments/assets/0a24acc9-cd82-41c9-82c8-872e13aea0a9)
 
-![325288457-84fd0614-b594-4265-8dec-243ec7f7acc8](https://github.com/user-attachments/assets/1cd09903-714f-43b2-a678-0e6b493f6e89)
+![Screenshot 2024-10-15 183620](https://github.com/user-attachments/assets/c8b1711d-822f-4cd4-9e54-7703c3ec3859)
 
-![325288659-a1c6c16d-8bc7-4cd8-bc3d-cebde586281a](https://github.com/user-attachments/assets/c9df6f3a-7416-450b-b0af-4edf2f2b6f39)
+![download](https://github.com/user-attachments/assets/be0d2a4c-1db6-45d5-85fa-9937c6a8ca31)
 
 ## Result:
 Thus the program to implement the K Means Clustering for Customer Segmentation is written and verified using python programming.
